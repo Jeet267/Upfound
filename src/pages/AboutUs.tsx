@@ -4,34 +4,35 @@ import { Users, Target, Heart, Globe, Award, Lightbulb } from 'lucide-react';
 export default function AboutUs() {
   const teamMembers = [
     {
-      name: "Rajesh Kumar",
-      role: "Co-founder & CEO",
-      bio: "Former product manager at Flipkart with 8+ years in e-commerce and marketplace development.",
-      image: "RK"
+      name: "Priyanshu Kumar",
+      role: "Co-founder",
+      bio: "IIT Madras graduate passionate about building ecosystems that empower Indian startups.",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQF-vMEapaY9dA/profile-displayphoto-shrink_800_800/B4DZeMqU.HGUAc-/0/1750411598247?e=1756339200&v=beta&t=4s0chbUR8fjDxAj7kvRRkB9daeJWkn7PfyLeF0x8ZsY"
     },
     {
-      name: "Priya Sharma",
-      role: "Co-founder & CTO",
-      bio: "Ex-Google engineer with expertise in scalable systems and fintech infrastructure.",
-      image: "PS"
+      name: "Abhijeet Kumar Shah",
+      role: "CTO",
+      bio: "NST Delhi technologist focused on scalable architecture, innovation platforms, and ecosystem development.",
+      image: "AS"
     },
     {
-      name: "Amit Patel",
-      role: "Head of Growth",
-      bio: "Marketing strategist who scaled multiple startups from 0 to $10M+ revenue.",
-      image: "AP"
+      name: "Riya Mehta",
+      role: "Head of Strategy",
+      bio: "Startup mentor and ecosystem builder driving strategic initiatives and partnerships.",
+      image: "RM"
     },
     {
-      name: "Sneha Reddy",
-      role: "Head of Operations",
-      bio: "Operations expert with deep experience in supply chain and logistics optimization.",
-      image: "SR"
+      name: "Karan Singh",
+      role: "Product & Community",
+      bio: "Community builder with a vision to bridge the gap between product creators and early adopters.",
+      image: "KS"
     }
   ];
+  
 
   const milestones = [
     {
-      year: "2022",
+      year: "2025",
       title: "Founded",
       description: "Upfound was born from the vision to democratize innovation access in India"
     },
